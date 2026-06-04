@@ -12,46 +12,66 @@
     <p>A klasszikus magyar kártyajáték szabályai</p>
   </header>
 
-  <div class="container">
+ <div class="container">
 
-    <h2>Mi az a Snapszer?</h2>
-    <p>
-      A snapszer egy népszerű magyar kártyajáték, amelyet általában két játékos játszik
-      32 lapos magyar vagy francia kártyával.
-    </p>
-
-    <h2>Alap szabályok</h2>
+    <h2>Pakli szabályok</h2>
 
     <div class="rules">
       <ul>
-        <li>Minden játékos 5 lapot kap.</li>
-        <li>A cél legalább 66 pont összegyűjtése.</li>
-        <li>Az ász 11 pontot ér.</li>
-        <li>A tízes 10 pontot ér.</li>
-        <li>A király 4 pontot ér.</li>
-        <li>Az alsó 2 pontot ér.</li>
-        <li>A bubi 3 pontot ér.</li>
+        <li>Ha takarás történt, arra a lapra többé nem lehet kattintani.</li>
+        <li>Ha a pakli kiürülne, az adu kártya bekerül a pakliba.</li>
+        <li>Amíg lehet húzni a pakliból és nincs meg az 5 lapod, kötelező húzni.</li>
       </ul>
     </div>
 
-    <h2>Adu</h2>
-    <p>
-      Az osztó felfordít egy lapot, amely meghatározza az adu színt.
-      Az adu minden más színt üt.
-    </p>
+    <h2>Játszási szabályok</h2>
 
-    <h2>Bemondások</h2>
-    <p>
-      Ha egy játékosnál király és felső van ugyanabból a színből,
-      bemondhatja a húszat vagy negyvenet.
-    </p>
+    <div class="rules">
+      <h3>Ha te vagy az első lépő</h3>
+      <p>Nincsenek külön megkötések.</p>
+
+      <h3>Ha te vagy a második lépő</h3>
+      <ul>
+        <li>Ha nem ugyanolyan színű lapot teszel le, mint az ellenfeled, veszíteni fogsz.</li>
+        <li>Kivétel: ha adu színű lapot teszel le, akkor te nyered a kört.</li>
+        <li>Ha volt takarás vagy kifogyott a pakli, kötelező az ellenfél színéből tenni, ha van nálad ilyen lap.</li>
+        <li>Ha nincs olyan színű lapod, de van adu színű lapod, akkor kötelező azt kijátszanod.</li>
+        <li>Ha egyik sincs nálad, biztosan elveszíted a kört.</li>
+      </ul>
+    </div>
+
+    <h2>Felső pár (20/40)</h2>
+
+    <div class="rules">
+      <ul>
+        <li>Felső párod van, ha ugyanabból a színből nálad van a 3-at és a 4-et érő lap.</li>
+        <li>Ha észreveszed és mindkét lapot bekattintod, aktiválhatod a párt.</li>
+        <li>Ha nem adu színű a pár, akkor 20 pontot kapsz.</li>
+        <li>Ha adu színű a pár, akkor 40 pontot kapsz.</li>
+      </ul>
+    </div>
+
+    <h2>Kör eredményének számítása</h2>
+
+    <div class="rules">
+      <ul>
+        <li>Ha a második lépő nem az ellenfél színéből játszott és nem is adut tett le, akkor veszít.</li>
+        <li>Ha a második lépő adu színű lapot tett le, az első játékos pedig nem adut, akkor a második játékos nyer.</li>
+        <li>Ha mindkét kijátszott lap színe megegyezik, akkor az nyer, akinek a lapja több pontot ér.</li>
+      </ul>
+    </div>
 
     <h2>Győzelem</h2>
-    <p>
-      Az nyer, aki először eléri vagy meghaladja a 66 pontot.
-    </p>
 
-  </div>
+    <div class="rules">
+      <ul>
+        <li>Az a játékos nyer, aki először eléri a 66 pontot.</li>
+        <li>Ha valaki felső párt mond be, és ezzel eléri a 66 pontot, azonnal megnyeri a játékot.</li>
+        <li>Ha elfogynak a lapok és már egyik játékos sem tud húzni vagy kijátszani, akkor az nyer, aki utoljára nyert kört.</li>
+      </ul>
+    </div>
+
+</div>
 
   <footer>
     © 2026 Snapszer Weboldal
